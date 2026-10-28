@@ -1,0 +1,27 @@
+{
+  "name": "@werub/hospital-web",
+  "version": "1.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3600 -H 0.0.0.0 --turbo",
+    "build": "next build",
+    "start": "next start -p 3600",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "lucide-react": "^0.509.0",
+    "next": "^16.2.6",
+    "postcss": "^8.5.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@werub/api-core",
+  "version": "1.2.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
